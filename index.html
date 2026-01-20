@@ -3,17 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>DAW - Módulos</title>
+  <!-- Enlace al CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Módulos de Desarrollo de Aplicaciones Web (DAW)</h1>
-  <ul>
+  <ul id="modulos">
     <li>Despliegue de Aplicaciones</li>
     <li>Entorno Servidor</li>
     <li>Entorno Cliente</li>
     <li>Diseño de Interfaces</li>
     <li>IPE</li>
- <li>Nuevo módulo EC2</li> 
-  <li>Sostenibilidad</li>
+    <li>Nuevo módulo EC2</li>
+    <li>Sostenibilidad</li>
   </ul>
+
+  <!-- Formulario de ejemplo que envía datos a PHP -->
+  <form action="procesar.php" method="POST" id="formModulo">
+    <input type="text" name="nuevoModulo" placeholder="Añadir módulo">
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Enlace al JS -->
+  <script src="main.js"></script>
 </body>
 </html>
