@@ -34,7 +34,7 @@ Tutorial oficial de Markdown:
 
 ## Imagen del proyecto
 
-![Imagen del proyecto](/dawEj2_3/Markdown-mark.svg)
+![Imagen del proyecto](/dawEj2_3/img/Markdown-mark.svg)
 
 ---
 
